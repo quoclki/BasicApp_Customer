@@ -1,0 +1,417 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0D8382D61D5092E400DA292A /* ClvBarCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D8382D41D5092E400DA292A /* ClvBarCell.swift */; };
+		0D8382D71D5092E400DA292A /* ClvBarCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0D8382D51D5092E400DA292A /* ClvBarCell.xib */; };
+		0D8382D91D5092F400DA292A /* ClvBarSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D8382D81D5092F400DA292A /* ClvBarSource.swift */; };
+		0D8382DE1D50A04000DA292A /* CustomerGroupVCtrl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D8382DC1D50A04000DA292A /* CustomerGroupVCtrl.swift */; };
+		0D8382DF1D50A04000DA292A /* CustomerGroupVCtrl.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0D8382DD1D50A04000DA292A /* CustomerGroupVCtrl.xib */; };
+		0D8382E21D50A12D00DA292A /* CustomerManagementVCtrl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D8382E01D50A12D00DA292A /* CustomerManagementVCtrl.swift */; };
+		0D8382E31D50A12D00DA292A /* CustomerManagementVCtrl.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0D8382E11D50A12D00DA292A /* CustomerManagementVCtrl.xib */; };
+		0D8382E61D50A13F00DA292A /* CustomerSchedulingVCtrl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D8382E41D50A13F00DA292A /* CustomerSchedulingVCtrl.swift */; };
+		0D8382E71D50A13F00DA292A /* CustomerSchedulingVCtrl.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0D8382E51D50A13F00DA292A /* CustomerSchedulingVCtrl.xib */; };
+		0D8382EA1D50A15100DA292A /* CustomerContactVCtrl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D8382E81D50A15100DA292A /* CustomerContactVCtrl.swift */; };
+		0D8382EB1D50A15100DA292A /* CustomerContactVCtrl.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0D8382E91D50A15100DA292A /* CustomerContactVCtrl.xib */; };
+		0D8382ED1D50AB9B00DA292A /* CustomerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D8382EC1D50AB9B00DA292A /* CustomerProtocol.swift */; };
+		0D85D2961D50F77100D9DD93 /* CustomerGroupAddEditVCtrl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D85D2941D50F77100D9DD93 /* CustomerGroupAddEditVCtrl.swift */; };
+		0D85D2971D50F77100D9DD93 /* CustomerGroupAddEditVCtrl.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0D85D2951D50F77100D9DD93 /* CustomerGroupAddEditVCtrl.xib */; };
+		0DE4AF7A1D50848E007BA093 /* BasicApp_Customer.h in Headers */ = {isa = PBXBuildFile; fileRef = 0DE4AF741D50848E007BA093 /* BasicApp_Customer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0DE4AF7B1D50848E007BA093 /* CustomerBaseVCtrl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DE4AF761D50848E007BA093 /* CustomerBaseVCtrl.swift */; };
+		0DE4AF7C1D50848E007BA093 /* CustomerVCtrl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DE4AF771D50848E007BA093 /* CustomerVCtrl.swift */; };
+		0DE4AF7D1D50848E007BA093 /* CustomerVCtrl.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0DE4AF781D50848E007BA093 /* CustomerVCtrl.xib */; };
+		0DE4AF7E1D50848E007BA093 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0DE4AF791D50848E007BA093 /* Info.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0D8382D41D5092E400DA292A /* ClvBarCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClvBarCell.swift; sourceTree = "<group>"; };
+		0D8382D51D5092E400DA292A /* ClvBarCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ClvBarCell.xib; sourceTree = "<group>"; };
+		0D8382D81D5092F400DA292A /* ClvBarSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClvBarSource.swift; sourceTree = "<group>"; };
+		0D8382DC1D50A04000DA292A /* CustomerGroupVCtrl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomerGroupVCtrl.swift; sourceTree = "<group>"; };
+		0D8382DD1D50A04000DA292A /* CustomerGroupVCtrl.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomerGroupVCtrl.xib; sourceTree = "<group>"; };
+		0D8382E01D50A12D00DA292A /* CustomerManagementVCtrl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomerManagementVCtrl.swift; sourceTree = "<group>"; };
+		0D8382E11D50A12D00DA292A /* CustomerManagementVCtrl.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomerManagementVCtrl.xib; sourceTree = "<group>"; };
+		0D8382E41D50A13F00DA292A /* CustomerSchedulingVCtrl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomerSchedulingVCtrl.swift; sourceTree = "<group>"; };
+		0D8382E51D50A13F00DA292A /* CustomerSchedulingVCtrl.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomerSchedulingVCtrl.xib; sourceTree = "<group>"; };
+		0D8382E81D50A15100DA292A /* CustomerContactVCtrl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomerContactVCtrl.swift; sourceTree = "<group>"; };
+		0D8382E91D50A15100DA292A /* CustomerContactVCtrl.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomerContactVCtrl.xib; sourceTree = "<group>"; };
+		0D8382EC1D50AB9B00DA292A /* CustomerProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomerProtocol.swift; sourceTree = "<group>"; };
+		0D85D2941D50F77100D9DD93 /* CustomerGroupAddEditVCtrl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomerGroupAddEditVCtrl.swift; sourceTree = "<group>"; };
+		0D85D2951D50F77100D9DD93 /* CustomerGroupAddEditVCtrl.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomerGroupAddEditVCtrl.xib; sourceTree = "<group>"; };
+		0DA045F71D4FA90B003B8DE1 /* BasicApp_Customer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BasicApp_Customer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0DE4AF741D50848E007BA093 /* BasicApp_Customer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BasicApp_Customer.h; sourceTree = "<group>"; };
+		0DE4AF761D50848E007BA093 /* CustomerBaseVCtrl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomerBaseVCtrl.swift; sourceTree = "<group>"; };
+		0DE4AF771D50848E007BA093 /* CustomerVCtrl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomerVCtrl.swift; sourceTree = "<group>"; };
+		0DE4AF781D50848E007BA093 /* CustomerVCtrl.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomerVCtrl.xib; sourceTree = "<group>"; };
+		0DE4AF791D50848E007BA093 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0DA045F31D4FA90B003B8DE1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0D8382D31D5092C800DA292A /* TableDefinied */ = {
+			isa = PBXGroup;
+			children = (
+				0D8382D41D5092E400DA292A /* ClvBarCell.swift */,
+				0D8382D51D5092E400DA292A /* ClvBarCell.xib */,
+				0D8382D81D5092F400DA292A /* ClvBarSource.swift */,
+			);
+			path = TableDefinied;
+			sourceTree = "<group>";
+		};
+		0D8382DA1D50996000DA292A /* Management */ = {
+			isa = PBXGroup;
+			children = (
+				0D8382E01D50A12D00DA292A /* CustomerManagementVCtrl.swift */,
+				0D8382E11D50A12D00DA292A /* CustomerManagementVCtrl.xib */,
+			);
+			path = Management;
+			sourceTree = "<group>";
+		};
+		0D8382DB1D50997C00DA292A /* Scheduling */ = {
+			isa = PBXGroup;
+			children = (
+				0D8382E41D50A13F00DA292A /* CustomerSchedulingVCtrl.swift */,
+				0D8382E51D50A13F00DA292A /* CustomerSchedulingVCtrl.xib */,
+			);
+			path = Scheduling;
+			sourceTree = "<group>";
+		};
+		0D85D2931D50F77100D9DD93 /* SupportVCtrl */ = {
+			isa = PBXGroup;
+			children = (
+				0D85D2941D50F77100D9DD93 /* CustomerGroupAddEditVCtrl.swift */,
+				0D85D2951D50F77100D9DD93 /* CustomerGroupAddEditVCtrl.xib */,
+			);
+			path = SupportVCtrl;
+			sourceTree = "<group>";
+		};
+		0DA045ED1D4FA90B003B8DE1 = {
+			isa = PBXGroup;
+			children = (
+				0DE4AF731D50848E007BA093 /* BasicApp_Customer */,
+				0DA045F81D4FA90B003B8DE1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0DA045F81D4FA90B003B8DE1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0DA045F71D4FA90B003B8DE1 /* BasicApp_Customer.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0DE4AF731D50848E007BA093 /* BasicApp_Customer */ = {
+			isa = PBXGroup;
+			children = (
+				0DE4AF741D50848E007BA093 /* BasicApp_Customer.h */,
+				0DE4AF751D50848E007BA093 /* Customer */,
+				0DE4AF791D50848E007BA093 /* Info.plist */,
+			);
+			path = BasicApp_Customer;
+			sourceTree = "<group>";
+		};
+		0DE4AF751D50848E007BA093 /* Customer */ = {
+			isa = PBXGroup;
+			children = (
+				0DE4AF7F1D5085A1007BA093 /* Contact */,
+				0DE4AF761D50848E007BA093 /* CustomerBaseVCtrl.swift */,
+				0D8382EC1D50AB9B00DA292A /* CustomerProtocol.swift */,
+				0DE4AF771D50848E007BA093 /* CustomerVCtrl.swift */,
+				0DE4AF781D50848E007BA093 /* CustomerVCtrl.xib */,
+				0DE4AF801D5085A1007BA093 /* Group */,
+				0D8382DA1D50996000DA292A /* Management */,
+				0D8382DB1D50997C00DA292A /* Scheduling */,
+				0D8382D31D5092C800DA292A /* TableDefinied */,
+			);
+			path = Customer;
+			sourceTree = "<group>";
+		};
+		0DE4AF7F1D5085A1007BA093 /* Contact */ = {
+			isa = PBXGroup;
+			children = (
+				0D8382E81D50A15100DA292A /* CustomerContactVCtrl.swift */,
+				0D8382E91D50A15100DA292A /* CustomerContactVCtrl.xib */,
+			);
+			path = Contact;
+			sourceTree = "<group>";
+		};
+		0DE4AF801D5085A1007BA093 /* Group */ = {
+			isa = PBXGroup;
+			children = (
+				0D8382DC1D50A04000DA292A /* CustomerGroupVCtrl.swift */,
+				0D8382DD1D50A04000DA292A /* CustomerGroupVCtrl.xib */,
+				0D85D2931D50F77100D9DD93 /* SupportVCtrl */,
+			);
+			path = Group;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0DA045F41D4FA90B003B8DE1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0DE4AF7A1D50848E007BA093 /* BasicApp_Customer.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0DA045F61D4FA90B003B8DE1 /* BasicApp_Customer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0DA045FF1D4FA90B003B8DE1 /* Build configuration list for PBXNativeTarget "BasicApp_Customer" */;
+			buildPhases = (
+				0DA045F21D4FA90B003B8DE1 /* Sources */,
+				0DA045F31D4FA90B003B8DE1 /* Frameworks */,
+				0DA045F41D4FA90B003B8DE1 /* Headers */,
+				0DA045F51D4FA90B003B8DE1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BasicApp_Customer;
+			productName = BasicApp_Customer;
+			productReference = 0DA045F71D4FA90B003B8DE1 /* BasicApp_Customer.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0DA045EE1D4FA90B003B8DE1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = quoclki;
+				TargetAttributes = {
+					0DA045F61D4FA90B003B8DE1 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = 0DA045F11D4FA90B003B8DE1 /* Build configuration list for PBXProject "BasicApp_Customer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0DA045ED1D4FA90B003B8DE1;
+			productRefGroup = 0DA045F81D4FA90B003B8DE1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0DA045F61D4FA90B003B8DE1 /* BasicApp_Customer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0DA045F51D4FA90B003B8DE1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0DE4AF7E1D50848E007BA093 /* Info.plist in Resources */,
+				0D8382DF1D50A04000DA292A /* CustomerGroupVCtrl.xib in Resources */,
+				0DE4AF7D1D50848E007BA093 /* CustomerVCtrl.xib in Resources */,
+				0D8382EB1D50A15100DA292A /* CustomerContactVCtrl.xib in Resources */,
+				0D8382D71D5092E400DA292A /* ClvBarCell.xib in Resources */,
+				0D8382E31D50A12D00DA292A /* CustomerManagementVCtrl.xib in Resources */,
+				0D8382E71D50A13F00DA292A /* CustomerSchedulingVCtrl.xib in Resources */,
+				0D85D2971D50F77100D9DD93 /* CustomerGroupAddEditVCtrl.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0DA045F21D4FA90B003B8DE1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D8382E61D50A13F00DA292A /* CustomerSchedulingVCtrl.swift in Sources */,
+				0D8382DE1D50A04000DA292A /* CustomerGroupVCtrl.swift in Sources */,
+				0D8382D91D5092F400DA292A /* ClvBarSource.swift in Sources */,
+				0D85D2961D50F77100D9DD93 /* CustomerGroupAddEditVCtrl.swift in Sources */,
+				0D8382E21D50A12D00DA292A /* CustomerManagementVCtrl.swift in Sources */,
+				0D8382D61D5092E400DA292A /* ClvBarCell.swift in Sources */,
+				0D8382ED1D50AB9B00DA292A /* CustomerProtocol.swift in Sources */,
+				0DE4AF7B1D50848E007BA093 /* CustomerBaseVCtrl.swift in Sources */,
+				0D8382EA1D50A15100DA292A /* CustomerContactVCtrl.swift in Sources */,
+				0DE4AF7C1D50848E007BA093 /* CustomerVCtrl.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		0DA045FD1D4FA90B003B8DE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		0DA045FE1D4FA90B003B8DE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		0DA046001D4FA90B003B8DE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = BasicApp_Customer/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Newstead.BasicApp-Customer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0DA046011D4FA90B003B8DE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = BasicApp_Customer/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Newstead.BasicApp-Customer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0DA045F11D4FA90B003B8DE1 /* Build configuration list for PBXProject "BasicApp_Customer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0DA045FD1D4FA90B003B8DE1 /* Debug */,
+				0DA045FE1D4FA90B003B8DE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0DA045FF1D4FA90B003B8DE1 /* Build configuration list for PBXNativeTarget "BasicApp_Customer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0DA046001D4FA90B003B8DE1 /* Debug */,
+				0DA046011D4FA90B003B8DE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0DA045EE1D4FA90B003B8DE1 /* Project object */;
+}
