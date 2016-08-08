@@ -16,6 +16,7 @@ public class CustomerBaseVCtrl: BaseVCtrl {
     // MARK: - Private properties
 
     // MARK: - Properties
+    public static var vTop: UIView!
     public static var vData: UIView!
     
     // MARK: - Init
@@ -28,7 +29,7 @@ public class CustomerBaseVCtrl: BaseVCtrl {
         btnSave.frame = CGRect(x: 0, y: CustomerBaseVCtrl.vData.height - 40, width: CustomerBaseVCtrl.vData.width, height: 40)
         btnSave.setTitle("Save", forState: .Normal)
         btnSave.backgroundColor = UIColor.yellowColor()
-        btnSave.touchUpInside({sender in self.saveData()})
+        btnSave.touchUpInside({sender in self.btnSave_Touch(sender)})
         
         view.addSubview(btnSave)
     }
@@ -52,12 +53,26 @@ public class CustomerBaseVCtrl: BaseVCtrl {
         
     }
     
+    func createButtonAdd() {
+        let btnAdd = UIButton()
+        btnAdd.frame = CGRect(x: CustomerBaseVCtrl.vTop.frame.width - 50, y: 20, width: 50, height: 50)
+        btnAdd.setImage(UIImage(named: "customer-plus", inBundle: NSBundle(forClass: self.dynamicType), compatibleWithTraitCollection: nil), forState: .Normal)
+        btnAdd.touchUpInside({sender in self.btnAdd_Touch(sender)})
+        CustomerBaseVCtrl.vTop.addSubview(btnAdd)
+    }
+    
+    
+    
     // MARK: - Layout UI
     
     // MARK: - Event Listerner
     
     // MARK: - Event Handler
-    func saveData () {
+    func btnSave_Touch (sender: UIButton) {
+        
+    }
+    
+    func btnAdd_Touch (sender: UIButton) {
         
     }
     

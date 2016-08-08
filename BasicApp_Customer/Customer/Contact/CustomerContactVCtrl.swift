@@ -28,6 +28,7 @@ class CustomerContactVCtrl: CustomerBaseVCtrl {
     // MARK: - Layout UI
     override func configUI() {
         super.configUI()
+        createButtonAdd()
         
     }
     

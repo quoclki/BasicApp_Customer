@@ -14,6 +14,7 @@ public class CustomerVCtrl: CustomerBaseVCtrl {
     // MARK: - Outlet
     @IBOutlet weak var btnHome: UIButton!
     @IBOutlet weak var lblName: UILabel!
+    @IBOutlet weak var vTop: UIView!
     @IBOutlet weak var vData: UIView!
     @IBOutlet weak var clvBar: UICollectionView!
     
@@ -36,12 +37,6 @@ public class CustomerVCtrl: CustomerBaseVCtrl {
     
     func createCustomerBarData() {
         var item = CustomerBarItem()
-        item.id = "1"
-        item.name = "Group"
-        item.viewController = CustomerGroupVCtrl()
-        customerBarData.append(item)
-        
-        item = CustomerBarItem()
         item.id = "2"
         item.name = "Contact"
         item.viewController = CustomerContactVCtrl()
@@ -78,6 +73,7 @@ public class CustomerVCtrl: CustomerBaseVCtrl {
         let layout = CollectionViewLayout(size: itemSize, scrollType: .Horizontal)
         clvBar.setCollectionViewLayout(layout, animated: true)
         
+        CustomerBaseVCtrl.vTop = vTop
         CustomerBaseVCtrl.vData = vData
         
     }

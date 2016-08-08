@@ -44,7 +44,7 @@ class CustomerGroupAddEditVCtrl: CustomerBaseVCtrl {
     }
     
     // MARK: - Event Handler
-    override func saveData() {
+    override func btnSave_Touch(sender: UIButton) {
         
     }
 }
